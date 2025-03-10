@@ -1,0 +1,19 @@
+{
+  "registry": "https://ui.bruhabruh.ru/registry.json",
+  "directories": {
+    "components": "src/shared/bruhabruh-ui/components",
+    "config": "src/shared/bruhabruh-ui/config",
+    "hooks": "src/shared/bruhabruh-ui/hooks",
+    "tailwind": "src/shared/bruhabruh-ui/tailwind",
+    "types": "src/shared/bruhabruh-ui/types",
+    "utility": "src/shared/bruhabruh-ui/utility"
+  },
+  "aliases": {
+    "components": "@/shared/bruhabruh-ui/components",
+    "config": "@/shared/bruhabruh-ui/config",
+    "hooks": "@/shared/bruhabruh-ui/hooks",
+    "tailwind": "@/shared/bruhabruh-ui/tailwind",
+    "types": "@/shared/bruhabruh-ui/types",
+    "utility": "@/shared/bruhabruh-ui/utility"
+  }
+}

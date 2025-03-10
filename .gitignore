@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.vinxi
+.output
+
+# REMOVE IN PROJECT
+src/shared/bruhabruh-ui/
