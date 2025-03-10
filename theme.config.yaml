@@ -2,9 +2,4 @@
 
 prefix: ''
 content: ./themes/**/*.theme.yaml
-output:
-  all:
-    css:
-      - destination: ./src/app/styles/theme.generated.css
-        options:
-          disableTypography: true
+output: ./src/app/styles/theme.generated.css

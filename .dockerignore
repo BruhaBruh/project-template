@@ -1,0 +1,8 @@
+.husky/
+.git/
+.output/
+.vinxi/
+.vscode/
+node_modules/
+.gitignore
+README.md

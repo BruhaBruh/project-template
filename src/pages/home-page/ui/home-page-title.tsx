@@ -1,7 +1,7 @@
 import { Container, ContainerContent } from '@/shared/bruhabruh-ui';
 import type React from 'react';
 
-export const HomePage: React.FC = () => {
+export const HomePageTitle: React.FC = () => {
   return (
     <Container color="primary-container" className="min-h-screen scroll-m-20">
       <ContainerContent

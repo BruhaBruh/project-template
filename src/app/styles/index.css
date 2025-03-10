@@ -1,11 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss' source(none);
 
-html {
-  @apply scroll-smooth;
+@source "../../../src";
+
+@theme {
+  --color-*: initial;
+  --radius-*: initial;
+  --spacing-*: initial;
+  --font-*: initial;
 }
 
-body {
-  @apply bg-surface text-on-surface min-h-screen font-sans antialiased relative overflow-y-auto overflow-x-hidden;
+@import './theme.generated.css';
+@import '../../shared/bruhabruh-ui/tailwind/index.css';
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-surface text-on-surface min-h-screen font-sans antialiased relative overflow-y-auto overflow-x-hidden;
+  }
 }

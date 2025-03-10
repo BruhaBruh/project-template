@@ -3,7 +3,6 @@ import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 
 import { RootLayout } from '@/app/root-layout';
 import indexCss from '../app/styles/index.css?url';
-import themeCss from '../app/styles/theme.generated.css?url';
 
 export const Route = createRootRoute({
   head: () => ({
@@ -40,10 +39,6 @@ export const Route = createRootRoute({
       {
         rel: 'stylesheet',
         href: indexCss,
-      },
-      {
-        rel: 'stylesheet',
-        href: themeCss,
       },
     ],
   }),

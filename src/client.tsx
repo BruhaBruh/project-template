@@ -5,9 +5,11 @@ import { hydrateRoot } from 'react-dom/client';
 
 import { createRouter } from './router';
 
-scan({
-  enabled: import.meta.dev,
-});
+if (import.meta.dev) {
+  scan({
+    enabled: true,
+  });
+}
 
 const router = createRouter();
 
